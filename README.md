@@ -55,3 +55,6 @@ estudos e no acompanhamento de seu desempenho escolar, proporcionando maior prat
 Nesta primeira versão, o FocusUp será voltado ao gerenciamento individual da rotina acadêmica. O sistema permitirá cadastrar e consultar informações, controlar atividades e prazos e acompanhar notas e indicadores básicos de desempenho.
 
 Não farão parte do escopo inicial funcionalidades como integração automática com plataformas escolares, lançamento de notas por professores, sincronização com calendários externos ou utilização de inteligência artificial para criação de planos de estudo. Essas funcionalidades poderão ser consideradas em versões futuras.
+_________________________________________________________________________________
+Atualizações 
+No dia 27/10 foram incluídas as instruções SQL do banco de dados e das tabelas utilizadas no projeto, além disso foi incluído a estrutura do projeto, em relação a organização das pastas 
