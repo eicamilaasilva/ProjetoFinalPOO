@@ -57,4 +57,9 @@ Nesta primeira versão, o FocusUp será voltado ao gerenciamento individual da r
 Não farão parte do escopo inicial funcionalidades como integração automática com plataformas escolares, lançamento de notas por professores, sincronização com calendários externos ou utilização de inteligência artificial para criação de planos de estudo. Essas funcionalidades poderão ser consideradas em versões futuras.
 _________________________________________________________________________________
 Atualizações 
-No dia 27/10 foram incluídas as instruções SQL do banco de dados e das tabelas utilizadas no projeto, além disso foi incluído a estrutura do projeto, em relação a organização das pastas 
+
+No dia 27/10 foram incluídas as instruções SQL do banco de dados e das tabelas utilizadas no projeto(arquivo presente na pasta SQL, lá estão as instruções SQL e as instruções de como testar após concluir a intalação do banco de dados), além disso foi incluído a estrutura do projeto (presente na pasta imagens, o único arquivo presente dentro da pasta), em relação a organização das pastas.
+
+No dia 10/11 foram concluídas as primeiras versões das interfaces (imagens presentes na pasta imagens, interface1.0), além disso concluímos a organização do GitHub, transferindo todas as pastas e arquivos da estrutura para dentro do projeto presente no sistema. 
+
+No dia 17/11 definimos a paleta de cores a a identidade visual do sistema, escolhendo a logo e os ícones, também iniciamos a produção do relatório. 
