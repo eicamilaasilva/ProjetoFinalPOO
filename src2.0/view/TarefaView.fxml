@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Tela responsável pelo cadastro
+    de Tarefas.
+
+    @author Emanuelle
+    @version 2.0
+-->
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="640" prefWidth="400" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TarefaController">
+   <padding><Insets bottom="15.0" left="15.0" right="15.0" top="15.0" /></padding>
+   <top>
+      <VBox spacing="10.0">
+         <GridPane hgap="10.0" vgap="10.0">
+            <columnConstraints>
+               <ColumnConstraints hgrow="NEVER" minWidth="130.0" />
+               <ColumnConstraints hgrow="ALWAYS" />
+            </columnConstraints>
+            <children>
+               <Label text="Título da Tarefa:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+               <TextField fx:id="titulo" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+               <Label text="Matéria Vinculada:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+               <ComboBox fx:id="materia" maxWidth="Infinity" onShowing="#carregarMaterias" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+               <Label text="Descrição:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+               <TextArea fx:id="descricao" prefRowCount="2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+               <Label text="Data de Entrega:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+               <DatePicker fx:id="data" maxWidth="Infinity" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+               <Label text="Status:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+               <ComboBox fx:id="status" maxWidth="Infinity" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+               <Label text="Prioridade:" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+               <ComboBox fx:id="prioridade" maxWidth="Infinity" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            </children>
+            <rowConstraints>
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+            </rowConstraints>
+         </GridPane>
+         <HBox spacing="10.0">
+            <children>
+               <Button onAction="#salvar" text="Salvar Tarefa">
+                  <graphic>
+                     <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                        <image><Image url="@../imagens/icons8-save-16.png" /></image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+               <Button onAction="#excluir" style="-fx-background-color: #ffcccc;" text="Excluir">
+                  <graphic>
+                     <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                        <image><Image url="@../imagens/icons8-delete-16.png" /></image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+               <Button onAction="#novo" text="Cancelar / Fechar">
+                  <graphic>
+                     <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                        <image><Image url="@../imagens/icons8-cancel-16.png" /></image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+            </children>
+            <padding><Insets bottom="10.0" top="5.0" /></padding>
+         </HBox>
+      </VBox>
+   </top>
+   <center>
+      <TableView fx:id="tabela">
+         <columns>
+            <TableColumn fx:id="cMateria" prefWidth="93.60000723600388" text=" Matéria" />
+            <TableColumn fx:id="cTitulo" prefWidth="183.99999237060547" text="Título" />
+            <TableColumn fx:id="colData" prefWidth="110.0" text="Entrega" />
+            <TableColumn fx:id="cStatus" prefWidth="120.0" text="Status" />
+            <TableColumn fx:id="cPrioridade" prefWidth="110.0" text="Prioridade" />
+            <TableColumn fx:id="cData" prefWidth="93.60000723600388" text="Data" />
+         </columns>
+         <columnResizePolicy><TableView fx:constant="CONSTRAINED_RESIZE_POLICY" /></columnResizePolicy>
+      </TableView>
+   </center>
+</BorderPane>
