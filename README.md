@@ -84,3 +84,34 @@ O sistema ainda conta com uma carência: a dificuldade em integração da logo d
 _________________________________________________________________________________
 # Como implementar o Projeto
 
+1. Implemente o banco de dados
+   Nesse projeto utilizamos o mysql, caso você não tenha em sua máquina será necessário garantir a sua instalação antes de iniciar esse tutorial.
+   Abra o mysql no terminal do seu computador ou vá direto no terminal do mysql, no primeiro caso digite o comando:
+   sudo mysql -u root -p
+   e em seguida coloque sua senha, no caso de ir direto ao mysql será necessário, apenas,colocar a senha.
+   Agora, vá até a pasta SQL desse projeto e abra o arquivo, nele terá todas as instruções para criar o banco de dados e as três tabelas necessárias, também terá instruções para testar se os aplicativos estão funcionando.
+
+2. Nesse projeto utilizamos o eclipse como IDE, caso você opte por usar também, existe um arquivo dentro da pasta resultados chamado ProjetoFinalP00.zip, nele estão todas as classes necessárias para o funcionamento desse sistema, extrária a pasta executável e adicione ela como projeto na IDE.
+
+3. Confugurações
+   Para rodar o projeto serão necessários arquivos JARS específicos para o javaFX, mysql e o Jasper, eles estão adicionados a pasta JARS, também dentro da pasta resultados desse projeto.
+   Para implementá-lo no eclipse você deve:
+   -clicar com o botão direito em cima do projeto
+   -selecionar o campo Properties ou usar o atalho Alt+Enter
+   -no menu lateral, dentro do campo Resource, você deve encontrar um campo chamado Java Build Path, clique com o botão direito
+   -agora, no menu superior da tela que abrir, procure o campo Libraries, com o ícone de livros ao lado
+   -selecione o segundo campo, Classpath, com o ícone de setas
+   -no menu do lado direito da tela, procure o botão Add External JARs.., clique nele
+   -navegue pelos seus arquivos até encontrar os arquivos Jar que você baixou nesse projeto e selecione todos, depois clique em ok
+   -por último clique em Apply and Close, o botão presente na parte direita e inferior da tela
+   Após todo esse processo ainda será possível adicionar o JavaFx ao projeto, para isso é necessário "rodar" o projeto, no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse.
+   -clique na seta preta do lado dela e procure um campo nomeado como Run Configurations..., clique nele
+   -na tela que acabou de ser aberta, procure o menu horizontal no meio da tela e localize o componente Arguments (será o segundo item do menu), clique nele
+   -agora, no campo de texto presente no segundo espaço da sua tela, em baixo da escrita VW argumentes, cole o comando que indica onde está a sua biblioteca do javaFX
+   "--module-path "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib" --add-modules javafx.controls,javafx.fxml"
+   Substitua esse campo: "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib", pela localização da sua pasta, caso ainda não tenha ela, estará disponível para download na pasta javafx-sdk-21.zip, dentro da pasta resultado desse projeto, instale ela, faça a extração da pasta e guarde o local onde foi colada.
+
+4. Se tudo ocorreu bem, é só clicar no botão de "rodar" o projeto novamente ( no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse) e o projeto será executado. 
+   
+   
+   
