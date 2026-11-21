@@ -144,4 +144,6 @@ ________________________________________________________________________________
 # Atualização Final do Projeto 21/11
 foram feitas as mudanças que possibilitaram a implementação dos ícones e da documentação do projeto.
 Para a questões do ícone, bastou corrigir o caminho das imagens nas telas de fxml e adicionar um caminho para o menuItem fechar, o projeto estará atualizado na página resultados, utilize sua versão atualizada para implementar na sua máquina. Para conferir o resultado das interfaces após o concerto dos ícones, confira na página resultado e procure as imagens referentes à Tela principal com icones e a tela meteria com icones (exemplo de tela de cadastro). 
+Todos os arquivos presentes na pasta src desse projeto também foram atualizados, para atualizar os fxml dos ícones e para implementar os arquivos adeptos as regras de documentação.
+Para conferir a documentação instale o arquivo index.html, presente na pasta doc, dentro do projeto zip (PojetoFinalPOO2.0.zip), e abra ele no seu navegador
    
