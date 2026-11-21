@@ -56,7 +56,7 @@ Nesta primeira versão, o FocusUp será voltado ao gerenciamento individual da r
 
 Não farão parte do escopo inicial funcionalidades como integração automática com plataformas escolares, lançamento de notas por professores, sincronização com calendários externos ou utilização de inteligência artificial para criação de planos de estudo. Essas funcionalidades poderão ser consideradas em versões futuras.
 _________________________________________________________________________________
-Atualizações 
+###Atualizações 
 
 No dia 27/10 foram incluídas as instruções SQL do banco de dados e das tabelas utilizadas no projeto(arquivo presente na pasta SQL, lá estão as instruções SQL e as instruções de como testar após concluir a intalação do banco de dados), além disso foi incluído a estrutura do projeto (presente na pasta imagens, o único arquivo presente dentro da pasta), em relação a organização das pastas.
 
@@ -75,5 +75,10 @@ O funcionamento, a partir das telas, pode ser conferido na pasta Resultados dess
 5.TelaInicial: corresponde a Tela apresentada quando o programa é aberto ou quando a tela home é acionada
 6.TelaMaterias: uma imagem de como a tela Materias, que corresponde a tela de cadastro de materias, está disposta no projeto
 7.TelaTarefas:  uma imagem de como a tela Tarefas, que corresponde a tela de cadastro de tarefas, está disposta no projeto
+_________________________________________________________________________________
 
+###Conclusão 
+O programa foi bem executado e permite a funcionalidade do problema que se propôs a atender além de alcançar os objetivos gerais e as principais funcionalidades descritas da descrição do sistema. 
+O cadastro, atualização e exclusão das matérias, tarefas e avaliações está funcionando através da conexão com o banco de dados e a consulta de desempenho e de tarefas, bem como seus status: pendente, concluída, em andamento; estão sendo efetivos pela solicitação dos relatórios. 
+O sistema ainda conta com uma carência: a dificuldade em integração da logo dos componentes. O objetivo é concertar essa requisito até o dia da apresentação (24/11/2026), tornando essa entrega compatível com a data final para avaliação da lógica e dos componentes obrigatórios que foram estabelecidos. 
 
