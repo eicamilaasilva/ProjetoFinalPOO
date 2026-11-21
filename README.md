@@ -146,4 +146,50 @@ foram feitas as mudanças que possibilitaram a implementação dos ícones e da 
 Para a questões do ícone, bastou corrigir o caminho das imagens nas telas de fxml e adicionar um caminho para o menuItem fechar, o projeto estará atualizado na página resultados, utilize sua versão atualizada para implementar na sua máquina. Para conferir o resultado das interfaces após o concerto dos ícones, confira na página resultado e procure as imagens referentes à Tela principal com icones e a tela meteria com icones (exemplo de tela de cadastro). 
 Todos os arquivos presentes na pasta src desse projeto também foram atualizados, para atualizar os fxml dos ícones e para implementar os arquivos adeptos as regras de documentação.
 Para conferir a documentação instale o arquivo index.html, presente na pasta doc, dentro do projeto zip (PojetoFinalPOO2.0.zip), e abra ele no seu navegador
-   
+Outra alteração feita foi a exclusão da tela Principal.fxml que estava "duplicado" com a tela main, fazendo referência a mesma controller, optamos por excluí-la. 
+
+Com essas últimas atualizações o projeto está concluído 
+
+_________________________________________________________________________________
+# Análise da proposta e do resultado final 
+
+2. Tecnologias obrigatórias
+ Java, utilizando orientação a objetos;
+ JavaFX para a interface gráfica;
+ MySQL para persistência dos dados;
+ JasperReports/Jaspersoft para geração dos relatórios;
+ Um instalador ou pacote executável que permita instalar/executar o sistema em outro 
+computador;
+ Git para versionamento e acompanhamento do desenvolvimento
+Todas as tecnologias foram implementadas no projeto, com exceção do instalador de pacote, um conteúdo que não foi dado no bimestre, porém, implementamos um tutorial de implementação do projeto a partir do projeto compactado.
+ 
+A etapa de análise foi concluída contendo: 
+4.1. Descrição do sistema
+4.2. Diagramas obrigatórios (presentes na pasta documentação desse repositório)
+
+5. Requisitos mínimos de implementação
+Item                            Quantidade mínima
+Entidades/tabelas principais    Pelo menos 3
+CRUDs completos                 Pelo menos 3
+Consultas personalizadas        Pelo menos 2
+Relatórios JasperReports        Pelo menos 2
+Fizemos 3 tabelas principais: tarefas, matérias e avaliações, temos 3 CRUDs completos que foram necessários para a funcionalidade de cada tela de cadastro, em relação as consultas personalizadas e aos relatórios, decidimos uni-los por falta de tempo, temos 2 relatórios completos de tarefa e de desempenho, no relatório de desempenho temos um parâmetro que é calculado como consulta personalizada, que é a porcentagem de desempenho por tarefa. Conteúdo, não conseguimos explorar melhor essa parte da proposta.
+
+6. Requisitos de orientação a objetos
+ Uso adequado de classes e objetos;
+ Encapsulamento;
+ Construtores quando necessários;
+ Relacionamentos entre classes;
+ Uso de herança e/ou polimorfismo quando houver justificativa no domínio do sistema;
+ Organização do código em classes com responsabilidades coerentes;
+ Separação adequada entre interface, regras da aplicação e acesso aos dados, de acordo com 
+o nível trabalhado na disciplina.
+ Documentação com javaDoc
+Todos esses requisitos estão presentes no nosso sitema
+
+7. Banco de dados
+
+8. Interface e usabilidade
+
+   Essas são as funcionalidades principais que estão enumeradas de acordo com o arquivo Trabalho_Final_POO2.pdf que contém a proposta do projeto.
+   Qualquer dúvida, estamos a disposição. 
