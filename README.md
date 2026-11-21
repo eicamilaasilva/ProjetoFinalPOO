@@ -66,14 +66,23 @@ No dia 17/11 definimos a paleta de cores a a identidade visual do sistema, escol
 
 No dia 20/11 foram feitas as ultimas atualizações que garantiram a funcionalidade do sistema:
 1.comunicação eficiente entre as Views e as controllers permitindo a abertura projeto e a funcionalidade do menu sem erros 
+
 2.contrução dos relatórios e integração deles ao projeto 
+
 O funcionamento, a partir das telas, pode ser conferido na pasta Resultados desse projeto que conta com os seguintes arquivos: 
+
 1.RelatorioDesempenho: corresponde a uma imagem de como está sendo formado o relatório de desempenho 
+
 2.RelatorioTarefa: corresponde a uma imagem de como está sendo formado o relatório de tarefas
+
 3.TelaAjuda: uma imagem de como a tela Ajuda, que corresponde a informações sobre o sistema, está disposta no projeto
+
 4.TelaAvaliações: uma imagem de como a tela Avaliações, que corresponde a tela de cadastro de avaliações, está disposta no projeto
+
 5.TelaInicial: corresponde a Tela apresentada quando o programa é aberto ou quando a tela home é acionada
+
 6.TelaMaterias: uma imagem de como a tela Materias, que corresponde a tela de cadastro de materias, está disposta no projeto
+
 7.TelaTarefas:  uma imagem de como a tela Tarefas, que corresponde a tela de cadastro de tarefas, está disposta no projeto
 _________________________________________________________________________________
 
@@ -90,28 +99,46 @@ ________________________________________________________________________________
    sudo mysql -u root -p
    e em seguida coloque sua senha, no caso de ir direto ao mysql será necessário, apenas,colocar a senha.
    Agora, vá até a pasta SQL desse projeto e abra o arquivo, nele terá todas as instruções para criar o banco de dados e as três tabelas necessárias, também terá instruções para testar se os aplicativos estão funcionando.
+   
 
-2. Nesse projeto utilizamos o eclipse como IDE, caso você opte por usar também, existe um arquivo dentro da pasta resultados chamado ProjetoFinalP00.zip, nele estão todas as classes necessárias para o funcionamento desse sistema, extrária a pasta executável e adicione ela como projeto na IDE.
+3. Nesse projeto utilizamos o eclipse como IDE, caso você opte por usar também, existe um arquivo dentro da pasta resultados chamado ProjetoFinalP00.zip, nele estão todas as classes necessárias para o funcionamento desse sistema, extrária a pasta executável e adicione ela como projeto na IDE.
+4. 
 
-3. Confugurações
+5. Confugurações
+
    Para rodar o projeto serão necessários arquivos JARS específicos para o javaFX, mysql e o Jasper, eles estão adicionados a pasta JARS, também dentro da pasta resultados desse projeto.
+   
    Para implementá-lo no eclipse você deve:
+   
    -clicar com o botão direito em cima do projeto
+   
    -selecionar o campo Properties ou usar o atalho Alt+Enter
+   
    -no menu lateral, dentro do campo Resource, você deve encontrar um campo chamado Java Build Path, clique com o botão direito
+   
    -agora, no menu superior da tela que abrir, procure o campo Libraries, com o ícone de livros ao lado
+   
    -selecione o segundo campo, Classpath, com o ícone de setas
+   
    -no menu do lado direito da tela, procure o botão Add External JARs.., clique nele
+   
    -navegue pelos seus arquivos até encontrar os arquivos Jar que você baixou nesse projeto e selecione todos, depois clique em ok
+   
    -por último clique em Apply and Close, o botão presente na parte direita e inferior da tela
+   
    Após todo esse processo ainda será possível adicionar o JavaFx ao projeto, para isso é necessário "rodar" o projeto, no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse.
+   
    -clique na seta preta do lado dela e procure um campo nomeado como Run Configurations..., clique nele
+   
    -na tela que acabou de ser aberta, procure o menu horizontal no meio da tela e localize o componente Arguments (será o segundo item do menu), clique nele
+   
    -agora, no campo de texto presente no segundo espaço da sua tela, em baixo da escrita VW argumentes, cole o comando que indica onde está a sua biblioteca do javaFX
+   
    "--module-path "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib" --add-modules javafx.controls,javafx.fxml"
+   
    Substitua esse campo: "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib", pela localização da sua pasta, caso ainda não tenha ela, estará disponível para download no site oficial: https://www.oracle.com/java/technologies/javase/javafx21-archive-downloads.html, essa página direciona para a mesma versão que utilizamos no projeto, salve-a e depois guarde o local em que salvou para modificar o campo anterior. 
 
-4. Se tudo ocorreu bem, é só clicar no botão de "rodar" o projeto novamente ( no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse) e o projeto será executado. 
+7. Se tudo ocorreu bem, é só clicar no botão de "rodar" o projeto novamente ( no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse) e o projeto será executado. 
    
    
    
