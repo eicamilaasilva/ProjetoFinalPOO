@@ -81,4 +81,6 @@ ________________________________________________________________________________
 O programa foi bem executado e permite a funcionalidade do problema que se propôs a atender além de alcançar os objetivos gerais e as principais funcionalidades descritas da descrição do sistema. 
 O cadastro, atualização e exclusão das matérias, tarefas e avaliações está funcionando através da conexão com o banco de dados e a consulta de desempenho e de tarefas, bem como seus status: pendente, concluída, em andamento; estão sendo efetivos pela solicitação dos relatórios. 
 O sistema ainda conta com uma carência: a dificuldade em integração da logo dos componentes. O objetivo é concertar essa requisito até o dia da apresentação (24/11/2026), tornando essa entrega compatível com a data final para avaliação da lógica e dos componentes obrigatórios que foram estabelecidos. 
+_________________________________________________________________________________
+# Como implementar o Projeto
 
