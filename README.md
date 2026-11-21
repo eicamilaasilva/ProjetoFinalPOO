@@ -109,7 +109,7 @@ ________________________________________________________________________________
    -na tela que acabou de ser aberta, procure o menu horizontal no meio da tela e localize o componente Arguments (será o segundo item do menu), clique nele
    -agora, no campo de texto presente no segundo espaço da sua tela, em baixo da escrita VW argumentes, cole o comando que indica onde está a sua biblioteca do javaFX
    "--module-path "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib" --add-modules javafx.controls,javafx.fxml"
-   Substitua esse campo: "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib", pela localização da sua pasta, caso ainda não tenha ela, estará disponível para download na pasta javafx-sdk-21.zip, dentro da pasta resultado desse projeto, instale ela, faça a extração da pasta e guarde o local onde foi colada.
+   Substitua esse campo: "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib", pela localização da sua pasta, caso ainda não tenha ela, estará disponível para download no site oficial: https://www.oracle.com/java/technologies/javase/javafx21-archive-downloads.html, essa página direciona para a mesma versão que utilizamos no projeto, salve-a e depois guarde o local em que salvou para modificar o campo anterior. 
 
 4. Se tudo ocorreu bem, é só clicar no botão de "rodar" o projeto novamente ( no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse) e o projeto será executado. 
    
