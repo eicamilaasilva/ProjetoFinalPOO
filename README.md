@@ -138,7 +138,10 @@ ________________________________________________________________________________
    
    Substitua esse campo: "C:\javafx-sdk-21\javafx-sdk-21.0.11\lib", pela localização da sua pasta, caso ainda não tenha ela, estará disponível para download no site oficial: https://www.oracle.com/java/technologies/javase/javafx21-archive-downloads.html, essa página direciona para a mesma versão que utilizamos no projeto, salve-a e depois guarde o local em que salvou para modificar o campo anterior. 
 
-7. Se tudo ocorreu bem, é só clicar no botão de "rodar" o projeto novamente ( no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse) e o projeto será executado. 
+4. Se tudo ocorreu bem, é só clicar no botão de "rodar" o projeto novamente ( no eclipse, com a classe que possui uma método main aberto, clique no símbolo de play verde e branco presente na segunda linha de comandos do eclipse) e o projeto será executado. 
    
-   
+_________________________________________________________________________________
+# Atualização Final do Projeto 21/11
+foram feitas as mudanças que possibilitaram a implementação dos ícones e da documentação do projeto.
+Para a questões do ícone, bastou corrigir o caminho das imagens nas telas de fxml e adicionar um caminho para o menuItem fechar, o projeto estará atualizado na página resultados, utilize sua versão atualizada para implementar na sua máquina. Para conferir o resultado das interfaces após o concerto dos ícones, confira na página resultado e procure as imagens referentes à Tela principal com icones e a tela meteria com icones (exemplo de tela de cadastro). 
    
