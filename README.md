@@ -101,10 +101,10 @@ ________________________________________________________________________________
    Agora, vá até a pasta SQL desse projeto e abra o arquivo, nele terá todas as instruções para criar o banco de dados e as três tabelas necessárias, também terá instruções para testar se os aplicativos estão funcionando.
    
 
-3. Nesse projeto utilizamos o eclipse como IDE, caso você opte por usar também, existe um arquivo dentro da pasta resultados chamado ProjetoFinalP00.zip, nele estão todas as classes necessárias para o funcionamento desse sistema, extrária a pasta executável e adicione ela como projeto na IDE.
-4. 
+2. Nesse projeto utilizamos o eclipse como IDE, caso você opte por usar também, existe um arquivo dentro da pasta resultados chamado ProjetoFinalP00.zip, nele estão todas as classes necessárias para o funcionamento desse sistema, extrária a pasta executável e adicione ela como projeto na IDE.
+ 
 
-5. Confugurações
+3. Confugurações
 
    Para rodar o projeto serão necessários arquivos JARS específicos para o javaFX, mysql e o Jasper, eles estão adicionados a pasta JARS, também dentro da pasta resultados desse projeto.
    
