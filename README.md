@@ -63,3 +63,17 @@ No dia 27/10 foram incluídas as instruções SQL do banco de dados e das tabela
 No dia 10/11 foram concluídas as primeiras versões das interfaces (imagens presentes na pasta imagens, interface1.0), além disso concluímos a organização do GitHub, transferindo todas as pastas e arquivos da estrutura para dentro do projeto presente no sistema. 
 
 No dia 17/11 definimos a paleta de cores a a identidade visual do sistema, escolhendo a logo e os ícones, também iniciamos a produção do relatório. 
+
+No dia 20/11 foram feitas as ultimas atualizações que garantiram a funcionalidade do sistema:
+1.comunicação eficiente entre as Views e as controllers permitindo a abertura projeto e a funcionalidade do menu sem erros 
+2.contrução dos relatórios e integração deles ao projeto 
+O funcionamento, a partir das telas, pode ser conferido na pasta Resultados desse projeto que conta com os seguintes arquivos: 
+1.RelatorioDesempenho: corresponde a uma imagem de como está sendo formado o relatório de desempenho 
+2.RelatorioTarefa: corresponde a uma imagem de como está sendo formado o relatório de tarefas
+3.TelaAjuda: uma imagem de como a tela Ajuda, que corresponde a informações sobre o sistema, está disposta no projeto
+4.TelaAvaliações: uma imagem de como a tela Avaliações, que corresponde a tela de cadastro de avaliações, está disposta no projeto
+5.TelaInicial: corresponde a Tela apresentada quando o programa é aberto ou quando a tela home é acionada
+6.TelaMaterias: uma imagem de como a tela Materias, que corresponde a tela de cadastro de materias, está disposta no projeto
+7.TelaTarefas:  uma imagem de como a tela Tarefas, que corresponde a tela de cadastro de tarefas, está disposta no projeto
+
+
