@@ -206,8 +206,6 @@ MainView.fxml	src/view/MainView.fxml (atualizado)
 
 MainController.java	src/controller/MainController.java (atualizado)
 
-ConsultasView.fxml	src/view/ConsultasView.fxml (atualizado)
-
 ConsultasController.java	src/controller/ (incluído)
 
 ConsultaPersonalizadaDao.java	src/dao/ (incluído)
