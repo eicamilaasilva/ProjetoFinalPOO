@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Tela de consultas personalizadas: indicadores de pendências e desempenho
+    agrupados por matéria.
+    @author Emanuelle
+    @version 2.0
+-->
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10.0" prefWidth="900.0" prefHeight="600.0"
+      xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="controller.ConsultasController">
+    <children>
+        <HBox spacing="10.0" alignment="CENTER_LEFT">
+            <children>
+                <Label text="Filtrar por Matéria:"/>
+                <ComboBox fx:id="cmbFiltroMateria" prefWidth="280.0" promptText="Todas as matérias"/>
+                <Button fx:id="btnAplicarFiltro" text="Aplicar Filtro" onAction="#aplicarFiltro"/>
+                <Button text="Mostrar Todas" onAction="#mostrarTodas"/>
+            </children>
+        </HBox>
+        <TabPane VBox.vgrow="ALWAYS">
+            <tabs>
+                <Tab text="Pendências por Matéria" closable="false">
+                    <content>
+                        <VBox spacing="8.0">
+                            <children>
+                                <Button fx:id="btnConsultaPendenciasMateria" text="Atualizar Consulta" onAction="#consultarPendenciasMateria"/>
+                                <TableView fx:id="tblPendenciasMateria" prefHeight="480.0">
+                                    <columns>
+                                        <TableColumn fx:id="colPendMateria" text="Matéria" prefWidth="260.0"/>
+                                        <TableColumn fx:id="colPendQuantidade" text="Pendentes" prefWidth="120.0"/>
+                                        <TableColumn fx:id="colPendAtrasadas" text="Atrasadas" prefWidth="120.0"/>
+                                        <TableColumn fx:id="colPendProximaEntrega" text="Próxima Entrega" prefWidth="220.0"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                    </content>
+                </Tab>
+                <Tab text="Desempenho por Matéria" closable="false">
+                    <content>
+                        <VBox spacing="8.0">
+                            <children>
+                                <Button fx:id="btnConsultaDesempenhoMateria" text="Atualizar Consulta" onAction="#consultarDesempenhoMateria"/>
+                                <TableView fx:id="tblDesempenhoMateria" prefHeight="480.0">
+                                    <columns>
+                                        <TableColumn fx:id="colDesempenhoMateria" text="Matéria" prefWidth="220.0"/>
+                                        <TableColumn fx:id="colDesempenhoQuantidade" text="Avaliações" prefWidth="120.0"/>
+                                        <TableColumn fx:id="colDesempenhoMedia" text="Média" prefWidth="120.0"/>
+                                        <TableColumn fx:id="colDesempenhoMaiorNota" text="Maior Nota" prefWidth="120.0"/>
+                                        <TableColumn fx:id="colDesempenhoMenorNota" text="Menor Nota" prefWidth="120.0"/>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </VBox>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</VBox>
