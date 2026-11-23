@@ -192,4 +192,20 @@ Todos esses requisitos estão presentes no nosso sitema
 8. Interface e usabilidade
 
    Essas são as funcionalidades principais que estão enumeradas de acordo com o arquivo Trabalho_Final_POO2.pdf que contém a proposta do projeto.
-   Qualquer dúvida, estamos a disposição. 
+   Qualquer dúvida, estamos a disposição.
+
+
+
+
+
+
+Dia 23/11, foi feita a última atualização do projeto antes da apresentação do dia 24, decidimos implementar as duas consultas personalizadas separadas do relatório, diferente do que tínhamos entregado anteriormente, a foto da interface de consultas personalizadas pode ser conferida na pasta resultados e o projeto zip também estará atualizado na pasta de resultados. 
+Além disso, teremos uma nova pasta, src3.0, que terá os arquivos atualizados, apenas os que foram alterados ou incrementados (na frente, a pasta em que foram incluídos): 
+MainView.fxml	src/view/MainView.fxml (atualizado)
+MainController.java	src/controller/MainController.java (atualizado)
+ConsultasView.fxml	src/view/ConsultasView.fxml (atualizado)
+ConsultasController.java	src/controller/ (incluído)
+ConsultaPersonalizadaDao.java	src/dao/ (incluído)
+ConsultaPendenciasMateria.java	src/model/ (incluído)
+ConsultaDesempenhoMateria.java	src/model/ (incluído)
+ConsultasView.fxml	src/view/ (incluído)
