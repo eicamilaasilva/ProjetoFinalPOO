@@ -1,15 +1,21 @@
 # ProjetoFinalPOO
 Esse repositório corresponde aos códigos, imagens e processos envolvidos na produção do trabalho final de POO do ano de 2026
 
+
 # Trabalho Final de POO 2
+
 ## FocusUp — Gerenciador de Estudos
 
+
 **Integrantes da equipe:**
+
 - Camila Pereira Silva
 - Emanuelle Leal Prado
 - Fernanda Nicolly Zago
+- 
 
 ### Descrição do sistema
+
 
 O FocusUp é um sistema computacional desenvolvido com o objetivo de facilitar a organização da rotina acadêmica dos estudantes,
 permitindo o gerenciamento de matérias, tarefas, provas, trabalhos e do desempenho escolar. O sistema contará com um painel 
@@ -17,6 +23,7 @@ principal que apresentará o cronograma mensal de atividades, os prazos das tare
 de estudos.
 
 ### Problema ou necessidade que o sistema pretende atender
+
 
 A quantidade de atividades, avaliações e trabalhos escolares pode dificultar a organização da rotina dos estudantes, especialmente
 quando não há uma ferramenta adequada para acompanhar os compromissos e seus respectivos prazos. Essa situação pode resultar em 
