@@ -50,6 +50,8 @@ estudos e no acompanhamento de seu desempenho escolar, proporcionando maior prat
 - **Acompanhamento do desempenho:** disponibilizar informações sobre as notas e a evolução do estudante por matéria, auxiliando na
 - identificação de disciplinas que necessitam de maior atenção.
 
+  Essas funcionalidades podem ser consultadas com maior detalhamento na pasta documentação, que contém os diagramas explicando como se dá as relações entre os autores do nosso sistema e a relação com o banco de dados. 
+
 ### Delimitação do sistema
 
 Nesta primeira versão, o FocusUp será voltado ao gerenciamento individual da rotina acadêmica. O sistema permitirá cadastrar e consultar informações, controlar atividades e prazos e acompanhar notas e indicadores básicos de desempenho.
