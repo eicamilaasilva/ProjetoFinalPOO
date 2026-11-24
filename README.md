@@ -212,10 +212,12 @@ ConsultasController.java	src/controller/ (incluído)
 
 ConsultaPersonalizadaDao.java	src/dao/ (incluído)
 
-Além disso, adicionamos a pasta compactada doc a pasta principal do projete, porém ela também pode ser consultada no arquivo zip da última versão do projeto 
-
 ConsultaPendenciasMateria.java	src/model/ (incluído)
 
 ConsultaDesempenhoMateria.java	src/model/ (incluído)
 
 ConsultasView.fxml	src/view/ (incluído)
+
+
+Além disso, adicionamos a pasta compactada doc a pasta principal do projete, porém ela também pode ser consultada no arquivo zip da última versão do projeto. 
+Decidimos implementar a consulta personalizada a partir da restrição de intens, para permitir uma consulta especifica de cada matéria. 
