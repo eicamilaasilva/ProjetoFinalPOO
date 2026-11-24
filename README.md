@@ -12,7 +12,7 @@ Esse repositório corresponde aos códigos, imagens e processos envolvidos na pr
 - Camila Pereira Silva
 - Emanuelle Leal Prado
 - Fernanda Nicolly Zago
-- 
+  
 
 ### Descrição do sistema
 
